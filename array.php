@@ -19,6 +19,7 @@ echo "Начали с числа ".$start."<br>Прибавляем за каж�
 while($start < $end) {
     $start_count = $start;
     $end_count = $start_count + $step;
+    $start = $end_count;
     $phrase = $array[rand(0,9)];
     echo $phrase."<br>";
     echo "Сейчас число равно: ".$end_count."<br>";
