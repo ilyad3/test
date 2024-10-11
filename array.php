@@ -21,7 +21,7 @@ while($start < $end) {
     $end_count = $start_count + $step;
     $start = $end_count;
     $phrase = $array[rand(0,9)];
-    echo $phrase."<br>";
-    echo "Сейчас число равно: ".$end_count."<br>";
+    echo $phrase."<br><br>";
+    echo "Сейчас число равно: ".$end_count."<br><br>";
 }
 ?>
