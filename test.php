@@ -7,5 +7,5 @@ $birthday = $_GET['birthday'];
 $git = $_GET['git'];
 
 
-echo "Ваше имя: ".$name."\nВаша фамилия: ".$second_name."\nВаша группа: ".$group."\nВаша дата рождения: ".$birthday."\nСсылка на ваш гит: <a href='".$git."' target='_blank'>".$git."</a>";
+echo "Ваше имя: ".$name."<br>Ваша фамилия: ".$second_name."<br>Ваша группа: ".$group."<br>Ваша дата рождения: ".$birthday."<br>Ссылка на ваш гит: <a href='".$git."' target='_blank'>".$git."</a>";
 ?>
