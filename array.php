@@ -20,5 +20,6 @@ for ($i=$start;$i<$end;$i+$step) {
     $end_count = $start_count + $step;
     $phrase = $array[rand(0,9)];
     echo $phrase."<br>";
+    echo "Сейчас число равно: ".$end_count."<br>";
 }
 ?>
