@@ -15,8 +15,9 @@ $array = [
     "Добавляем как будто строим числовую империю!"
 ];
 echo "Начали с числа ".$start."<br>Прибавляем за каждый шаг ".$step."<br>Закончим числом ".$end."<br><br>Погнали))<br><br>";
-for ($i=$start;$i<$end;$i+$step) {
-    $start_count = $i;
+
+while($start < $end) {
+    $start_count = $start;
     $end_count = $start_count + $step;
     $phrase = $array[rand(0,9)];
     echo $phrase."<br>";
